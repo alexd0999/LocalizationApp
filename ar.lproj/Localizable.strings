@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  LocalizationApp
+
+  Created by Alex Arthur on 3/15/26.
+  
+*/
+"Welcome to our App!" = "مرحباً بكم في تطبيقنا!";
+"This is a sample description to show how localization works." = "هذا وصف نموذجي لإظهار كيف تعمل الأقلمة.";
+"Click Me!" = "انقر هنا!";
+"Switch Language" = "تغيير اللغة";
+"Current Date & Time:" = "التاريخ والوقت الحالي:";
+"Formatted Number:" = "الرقم المنسق:";
+"OK" = "موافق";
+"Cancel" = "إلغاء";

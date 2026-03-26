@@ -6,5 +6,10 @@
   
 */
 "Welcome to our App!" = "Welcome to our App!";
+"This is a sample description to show how localization works." = "This is a sample description to show how localization works.";
+"Click Me!" = "Click Me!";
 "Switch Language" = "Switch Language";
-"Current Date:" = "Current Date:";
+"Current Date & Time:" = "Current Date & Time:";
+"Formatted Number:" = "Formatted Number:"; 
+"OK" = "OK";
+"Cancel" = "Cancel";

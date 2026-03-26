@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  LocalizationApp
+
+  Created by Alex Arthur on 3/15/26.
+  
+*/
+"Welcome to our App!" = "Bienvenue dans notre application !";
+"This is a sample description to show how localization works." = "Ceci est un exemple de description pour montrer comment fonctionne la localisation.";
+"Click Me!" = "Cliquez sur moi !";
+"Switch Language" = "Changer de langue";
+"Current Date & Time:" = "Date et heure actuelles :";
+"Formatted Number:" = "Nombre formaté :";
+"OK" = "D'accord";
+"Cancel" = "Annuler";

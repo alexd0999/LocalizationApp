@@ -33,6 +33,8 @@
 		CB1489112F75DD3D009E5346 /* LocalizationAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizationAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB1489252F75DF41009E5346 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CB1489272F75DF69009E5346 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CB1489282F75E3C6009E5346 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CB1489292F75E855009E5346 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -200,6 +202,8 @@
 				en,
 				Base,
 				es,
+				fr,
+				ar,
 			);
 			mainGroup = CB1488F12F75DD3B009E5346;
 			minimizedProjectReferenceProxies = 1;
@@ -283,6 +287,8 @@
 			children = (
 				CB1489252F75DF41009E5346 /* en */,
 				CB1489272F75DF69009E5346 /* es */,
+				CB1489282F75E3C6009E5346 /* fr */,
+				CB1489292F75E855009E5346 /* ar */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

@@ -9,13 +9,15 @@ import SwiftUI
 
 @main
 struct LocalizationApp: App {
-    
     @AppStorage("selectedLanguage") private var language = "en"
 
     var body: some Scene {
         WindowGroup {
             ContentView()
+                //instantly changes text language
                 .environment(\.locale, .init(identifier: language))
+                //flips UI layout when arabic
+                .environment(\.layoutDirection, language == "ar" ? .rightToLeft : .leftToRight)
         }
     }
 }

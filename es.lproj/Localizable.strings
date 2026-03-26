@@ -6,5 +6,10 @@
   
 */
 "Welcome to our App!" = "¡Bienvenido a nuestra aplicación!";
+"This is a sample description to show how localization works." = "Esta es una descripción de muestra para mostrar cómo funciona la localización.";
+"Click Me!" = "¡Haz clic en mí!";
 "Switch Language" = "Cambiar Idioma";
-"Current Date:" = "Fecha actual:";
+"Current Date & Time:" = "Fecha y hora actuales:";
+"Formatted Number:" = "Número formateado:";
+"OK" = "Aceptar";
+"Cancel" = "Cancelar";
