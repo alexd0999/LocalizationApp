@@ -2,16 +2,20 @@
 //  LocalizationAppApp.swift
 //  LocalizationApp
 //
-//  Created by Alex Arthur on 3/26/26.
+//  Created by Alex Arthur on 3/15/26.
 //
 
 import SwiftUI
 
 @main
-struct LocalizationAppApp: App {
+struct LocalizationApp: App {
+    
+    @AppStorage("selectedLanguage") private var language = "en"
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.locale, .init(identifier: language))
         }
     }
 }

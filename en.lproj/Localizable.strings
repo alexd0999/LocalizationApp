@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  LocalizationApp
+
+  Created by Alex Arthur on 3/15/26.
+  
+*/
+"Welcome to our App!" = "Welcome to our App!";
+"Switch Language" = "Switch Language";
+"Current Date:" = "Current Date:";

@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CB1489262F75DF41009E5346 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB1489242F75DF41009E5346 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		CB1489082F75DD3D009E5346 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,8 @@
 		CB1488FA2F75DD3B009E5346 /* LocalizationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB1489072F75DD3D009E5346 /* LocalizationAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizationAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB1489112F75DD3D009E5346 /* LocalizationAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizationAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1489252F75DF41009E5346 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CB1489272F75DF69009E5346 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +81,7 @@
 		CB1488F12F75DD3B009E5346 = {
 			isa = PBXGroup;
 			children = (
+				CB1489242F75DF41009E5346 /* Localizable.strings */,
 				CB1488FC2F75DD3B009E5346 /* LocalizationApp */,
 				CB14890A2F75DD3D009E5346 /* LocalizationAppTests */,
 				CB1489142F75DD3D009E5346 /* LocalizationAppUITests */,
@@ -192,6 +199,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = CB1488F12F75DD3B009E5346;
 			minimizedProjectReferenceProxies = 1;
@@ -212,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB1489262F75DF41009E5346 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +276,18 @@
 			targetProxy = CB1489122F75DD3D009E5346 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB1489242F75DF41009E5346 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB1489252F75DF41009E5346 /* en */,
+				CB1489272F75DF69009E5346 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CB1489192F75DD3D009E5346 /* Debug */ = {
